@@ -23,9 +23,11 @@ During this project, we build a backend service in Spring Boot, secure it using 
     git clone https://github.com/bartlomiejbakdev/spring-angular-jwt-docker.git
     cd spring-angular-jwt-docker
 2. Build and run the services using Docker Compose:
+   ```bash
     docker-compose up --build
-3. The backend service will be accessible at http://localhost:8080, and the frontend at http://localhost:4200.
-4. To stop the services, press Crtl+c and run:
-docker-compose down
+4. The backend service will be accessible at http://localhost:8080, and the frontend at http://localhost:4200.
+5. To stop the services, press Crtl+c and run:
+   ```bash
+    docker-compose down
 
 MIT
